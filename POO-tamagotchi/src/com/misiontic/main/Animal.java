@@ -18,6 +18,23 @@ public class Animal {
             peso +=2;
             sueno += 2;
             felicidad -= 3;
+           /* if(salud <0) {
+            	salud =0;
+            	System.out.println("Me estoy muriendo!");
+            }
+            if (peso > 4) {
+            	salud -=1;
+            	System.out.println("Debo hacer ejercicio!");
+            }
+            if(sueno >= 80) {
+            	salud -=1;
+            	System.out.println("Debo dormir un rato");
+            }
+            if(felicidad < 50) {
+            	salud -=1;
+            	System.out.println();
+            }
+            */
         }else {
             hambre = hambre - 5;
             peso +=1;
