@@ -73,7 +73,7 @@ public class Animal {
     	}
         
     }
-    private void jugar() {
+    public int jugar() {
     	if(felicidad <50) {
     		salud -= 1;
     		felicidad +=2;
@@ -83,6 +83,7 @@ public class Animal {
     		salud += 1;
     		
     	}
+    	return felicidad;
         
     }
 }

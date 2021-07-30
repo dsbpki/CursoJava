@@ -13,10 +13,16 @@ public class Main {
 		gatico.sueno = 50;
 		
 	
-		System.out.println("hambre gatico: " + gatico.hambre);
-		
-		
+		System.out.println("hambre gatico: " + gatico.hambre);		
 		System.out.println("felicidad gatico: " + gatico.felicidad);
+		System.out.println("peso gatico: " + gatico.peso);
+		System.out.println("salud gatico: " + gatico.salud);
+		System.out.println("sueño gatico: " + gatico.sueno);
+		
+		
+		gatico.felicidad = gatico.jugar();
+		System.out.println("nueva felicidad gatico: " + gatico.felicidad);
+		
 
 	}
 
