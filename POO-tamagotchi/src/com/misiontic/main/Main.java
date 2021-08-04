@@ -34,8 +34,25 @@ public class Main {
 		cat.sleep = 0; //va de 0 a 100, 0 es muy despierto y 100 es muy somnoliento
 */
 		Animal perro = new Animal(5, 4, 6, 7, 8, true);
-		System.out.println("El perro tiene las siguientes caracteristicas: " + perro.isAwake());
-		System.out.println("El perro tiene hambre=?: "+ perro.getHungry());
+		System.out.println("El perro esta asi de pesado: " + perro.getWeight());
+		System.out.println("El perro esta asi de feliz: " + perro.getHappiness());
+		System.out.println("El perro esta asi de saludable: " + perro.getHealth());
+		System.out.println("El perro esta asi de hambriento: " + perro.getHungry());
+		System.out.println("El perro esta asi de dormido: " + perro.getSleep());
+		System.out.println("El perro esta asi de despierto: " + perro.isAwake());
+		
+		Animal cat = new Animal(1,2,3,4,5, true);
+		System.out.println("El gato esta asi de pesado: " + cat.getWeight());
+		System.out.println("El gato esta asi de feliz: " + cat.getHappiness());
+		System.out.println("El gato esta asi de saludable: " + cat.getHealth());
+		System.out.println("El gato esta asi de hambriento: " + cat.getHungry());
+		System.out.println("El gato esta asi de dormido: " + cat.getSleep());
+		System.out.println("El gato esta asi de despierto: " + cat.isAwake());
+		
+		Food cuido = new Food(800);
+		System.out.println("calorias: " + cuido.getCalories());
+		System.out.println("name: " + cuido.getFood_name());
+	
 		
 		
 		
