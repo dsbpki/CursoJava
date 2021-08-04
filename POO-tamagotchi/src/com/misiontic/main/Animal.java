@@ -104,12 +104,12 @@ public class Animal {
 	//Yo quiero decir si ya termine de comer
 	public void eat(Food food) {
 		weight = weight + 2;
-		if(hungry <= food.calories) {
+		if(hungry <= food.getCalories()) {
 			hungry = 0;
 			System.out.println("Estoy demasiado lleno, me voy a enfermar de tanto comer");
 			health = health -2;			
 		}else {
-			hungry = hungry - food.calories;
+			hungry = hungry - food.getCalories();
 		}
 	}
 	private void eat() {
